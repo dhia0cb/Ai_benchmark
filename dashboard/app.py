@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Benchmark IA", layout="wide")
 st.title("Benchmark des Outils IA")
 
-df = pd.read_csv(r'C:\Users\DHIA\benchmark_ai\data\resultats.csv')
+df = pd.read_csv("data/resultats.csv")
 st.subheader("Données brutes")
 st.dataframe(df)
 
